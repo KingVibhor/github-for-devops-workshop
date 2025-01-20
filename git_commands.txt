@@ -4,3 +4,8 @@ git commit -m "message"
 clear
 rm {file name}
 git restore {file name}
+git remote add -origin ""
+git remote -v
+git remote set-url origin ""
+git push origin master
+ 
